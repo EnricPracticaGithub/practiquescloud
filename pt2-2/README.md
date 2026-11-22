@@ -15,7 +15,7 @@
 - Utilizar la región `us-east-1`.
 
 
-## Diseño de referencia de la toplogía:
+## Diseño de referencia de la topología:
 ![Topologia](assets/pt2-2_topologia.png)
 
 ### Creando la VPC principal:
@@ -157,7 +157,7 @@ resource "aws_vpc_security_group_ingress_rule" "icmp_01" {
 }
 
 #Especificamos las reglas de outbound#
-  #Con ip_protocol = "-1" -> Indicamos todos los protocolos que se incluye en el trafico de salida.
+  #Con ip_protocol = "-1" -> Indicamos todos los protocolos que se incluye en el tráfico de salida.
 
 resource "aws_vpc_security_group_egress_rule" "salida_01" {
   security_group_id = aws_security_group.sg_01.id
