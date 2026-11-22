@@ -208,7 +208,7 @@ resource "aws_instance" "ec2-b" {
 
 ![Yes_prompt](assets/pt2-2_yes_prompt.png)
 
-### Cambios aplicados despuñes del apply ###
+### Cambios aplicados después del apply ###
 ![After_prompt](assets/pt2-2_after_prompt.png)
 
 ### Resultado instancias creadas (captura final) ###
